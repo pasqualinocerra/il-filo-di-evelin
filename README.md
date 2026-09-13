@@ -1,16 +1,98 @@
-# React + Vite
+# Il Filo di Evelin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page dedicata a **Il Filo di Evelin**, progetto artigianale specializzato in creazioni handmade realizzate all'uncinetto e accessori personalizzati.
 
-Currently, two official plugins are available:
+Il sito presenta le creazioni, le categorie di prodotti e le possibilità di realizzare ordini personalizzati.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologie
 
-## React Compiler
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Struttura del progetto
 
-## Expanding the ESLint configuration
+```text
+il-filo-di-evelin/
+├── public/
+│   └── immagini delle creazioni
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Categories.jsx
+│   │   ├── CustomOrder.jsx
+│   │   ├── FeaturedCreations.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Hero.jsx
+│   │   └── Navbar.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installazione
+
+Clona la repository:
+
+```bash
+git clone https://github.com/pasqualinocerra/il-filo-di-evelin.git
+```
+
+Entra nella cartella del progetto:
+
+```bash
+cd il-filo-di-evelin
+```
+
+Installa le dipendenze:
+
+```bash
+npm install
+```
+
+## Avvio in locale
+
+Per avviare il progetto in ambiente di sviluppo:
+
+```bash
+npm run dev
+```
+
+Il progetto sarà disponibile all'indirizzo indicato da Vite nel terminale.
+
+## Build di produzione
+
+Per creare la build di produzione:
+
+```bash
+npm run build
+```
+
+Per verificare localmente la build:
+
+```bash
+npm run preview
+```
+
+## Obiettivo
+
+Il progetto nasce con l'obiettivo di creare una presenza online semplice, elegante e responsive per mostrare le creazioni artigianali de **Il Filo di Evelin** e facilitare il contatto per richieste e ordini personalizzati.
+
+## Stato del progetto
+
+**In sviluppo**
+
+Il progetto è in fase di completamento e revisione prima della pubblicazione online.
+
+## Autore
+
+**Pasqualino Cerra**
+
+Sviluppato per **Il Filo di Evelin**.
