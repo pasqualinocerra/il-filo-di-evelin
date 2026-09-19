@@ -3,7 +3,7 @@ const featuredCreations = [
     title: "Portaciuccio personalizzato",
     description:
       "Un piccolo accessorio pensato per i più piccoli, personalizzato con nome e dettagli realizzati a mano.",
-    image: "/public/portaciuccio-unicorno.jpg",
+    image: "portaciuccio-unicorno.jpg",
     tag: "Personalizzato",
   },
   {
