@@ -105,15 +105,6 @@ function Footer() {
                 Email
               </a>
 
-              <a
-                href="https://wa.me/393000000000"
-                target="_blank"
-                rel="noreferrer"
-                className="transition hover:text-white"
-              >
-                WhatsApp
-              </a>
-
             </div>
 
           </div>
