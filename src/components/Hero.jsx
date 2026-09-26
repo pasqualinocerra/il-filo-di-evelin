@@ -92,7 +92,7 @@ function Hero() {
             <div className="relative mx-auto w-full h-150 max-w-[500px] overflow-hidden rounded-[3rem] bg-[#eadcf0] shadow-2xl shadow-[#80669c]/10">
 
               <img
-                src="bluey.jpeg"
+                src="/bluey.jpeg"
                 alt="Amigurumi realizzato a mano"
                 className="block h-auto w-full"
               />
@@ -105,7 +105,7 @@ function Hero() {
 
               <div className="overflow-hidden rounded-xl bg-[#f1e5f3]">
                 <img
-                  src="mazzo-di-fori.jpg"
+                  src="/mazzo-di-fori.jpg"
                   alt="Creazione all'uncinetto"
                   className="block h-auto w-full"
                 />
@@ -122,7 +122,7 @@ function Hero() {
 
               <div className="overflow-hidden rounded-xl bg-[#f4e3e7]">
                 <img
-                  src="fragoline-orecchini.jpg"
+                  src="/fragoline-orecchini.jpg"
                   alt="Lavorazione all'uncinetto"
                   className="block h-full w-full"
                 />
