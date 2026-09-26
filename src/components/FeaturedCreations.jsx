@@ -14,7 +14,7 @@ const featuredCreations = [
     tag: "Regali",
   },
   {
-    title: "Borse & accessori",
+    title: "Bracciali & accessori",
     description: "Creazioni da indossare, usare e portare sempre con sé.",
     image:
       "braccialetto.jpg",
