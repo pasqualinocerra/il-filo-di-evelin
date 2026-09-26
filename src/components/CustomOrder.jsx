@@ -38,12 +38,12 @@ function CustomOrder() {
             </p>
 
             <a
-              href="https://wa.me/393275653146?text=Ciao%2C%20ti%20contatto%20dal%20sito."
+              href="https://www.instagram.com/ilfilodievelin/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#45364c] px-7 py-3.5 text-sm font-medium text-white shadow-lg shadow-[#45364c]/15 transition duration-300 hover:-translate-y-1 hover:bg-[#80669c]"
             >
-              Scrivimi su WhatsApp
+              Scrivimi su Instagram
               <span>→</span>
             </a>
 
