@@ -1,22 +1,32 @@
 # Il Filo di Evelin
 
-Landing page dedicata a **Il Filo di Evelin**, progetto artigianale specializzato in creazioni handmade realizzate all'uncinetto e accessori personalizzati.
+Landing page realizzata per **Il Filo di Evelin**, progetto artigianale dedicato a creazioni handmade realizzate all'uncinetto, amigurumi, pupazzetti, accessori e idee personalizzate.
 
-Il sito presenta le creazioni, le categorie di prodotti e le possibilità di realizzare ordini personalizzati.
+Il sito presenta il progetto, le principali categorie di creazioni, alcuni lavori realizzati e offre un punto di contatto attraverso Instagram.
+
+## Sito online
+
+**Live:** https://ilfilodievelin.vercel.app/
+
+**Instagram:** https://www.instagram.com/ilfilodievelin/
+
+**Repository:** https://github.com/pasqualinocerra/il-filo-di-evelin
 
 ## Tecnologie
 
-* React
-* Vite
-* JavaScript
-* Tailwind CSS
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
 
 ## Struttura del progetto
 
 ```text
 il-filo-di-evelin/
+
 ├── public/
 │   └── immagini delle creazioni
+│
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -28,14 +38,16 @@ il-filo-di-evelin/
 │   │   ├── Gallery.jsx
 │   │   ├── Hero.jsx
 │   │   └── Navbar.jsx
+│   │
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
+│
 ├── index.html
 ├── package.json
 ├── vite.config.js
 └── README.md
-```
+````
 
 ## Installazione
 
@@ -83,13 +95,13 @@ npm run preview
 
 ## Obiettivo
 
-Il progetto nasce con l'obiettivo di creare una presenza online semplice, elegante e responsive per mostrare le creazioni artigianali de **Il Filo di Evelin** e facilitare il contatto per richieste e ordini personalizzati.
+Il progetto nasce con l'obiettivo di creare una presenza online semplice, elegante e responsive per presentare le creazioni artigianali de **Il Filo di Evelin** e facilitare il contatto per richieste e ordini personalizzati.
 
 ## Stato del progetto
 
-**In sviluppo**
+**Online e attivo.**
 
-Il progetto è in fase di completamento e revisione prima della pubblicazione online.
+Il sito è pubblicato e accessibile online. Il progetto può continuare a essere aggiornato con nuove creazioni, contenuti e miglioramenti tecnici.
 
 ## Autore
 
