@@ -13,19 +13,42 @@ function Footer() {
 
             <div className="flex items-center gap-3">
 
-              <div className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10">
-                <span className="font-serif text-xl text-[#d8c5e2]">
-                  F
-                </span>
+              <div className="flex h-11 w-11 items-center justify-center rounded-full border border-[#d8c5e2]/20 bg-white/10">
+                <svg
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  className="h-6 w-6 text-[#d8c5e2]"
+                >
+                  <path
+                    d="M11 26C15 31 24 32 29 26C33 21 31 14 25 12"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                  />
+
+                  <path
+                    d="M25 12C23 9 18 10 18 14C18 18 22 20 25 22C28 20 32 18 32 14C32 10 27 9 25 12Z"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                    strokeLinejoin="round"
+                  />
+
+                  <path
+                    d="M8 18C13 15 17 14 22 14"
+                    stroke="currentColor"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                  />
+                </svg>
               </div>
 
-              <div>
-                <p className="font-serif text-2xl">
-                  Il Filo di Evelin
+              <div className="leading-none">
+                <p className="font-serif text-xl font-semibold tracking-tight">
+                  Il Filo
                 </p>
 
-                <p className="mt-1 text-[9px] uppercase tracking-[0.25em] text-white/40">
-                  Creazioni all'uncinetto
+                <p className="mt-1 text-[9px] font-medium uppercase tracking-[0.28em] text-[#d8c5e2]">
+                  di Evelin
                 </p>
               </div>
 
@@ -92,17 +115,10 @@ function Footer() {
               <a
                 href="https://www.instagram.com/ilfilodievelin/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="transition hover:text-white"
               >
                 Instagram
-              </a>
-
-              <a
-                href="mailto:info@ilfilodievelin.it"
-                className="transition hover:text-white"
-              >
-                Email
               </a>
 
             </div>
